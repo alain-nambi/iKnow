@@ -1,13 +1,13 @@
-import SideBarMenu from "./components/navigation/sidebar-menu";
+import SideBarMenu from "./components/navigation/SideBarMenu";
 import "./App.css";
-import { AlertDialogDemo } from "./components/AlertDialogDemo";
+
+import ThemeProvider from "./components/ThemeProvider";
 
 function App() {
   return (
-    <>
+    <ThemeProvider>
       <SideBarMenu />
-      <AlertDialogDemo />
-    </>
+    <ThemeProvider />
   );
 }
 
