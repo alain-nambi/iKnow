@@ -1,12 +1,10 @@
-import SideBarMenu from "./components/navigation/sidebar-menu";
+import SideBarMenu from "./components/navigation/sidebar/sidebar-menu";
 import "./App.css";
-import { AlertDialogDemo } from "./components/AlertDialogDemo";
 
 function App() {
   return (
     <>
       <SideBarMenu />
-      <AlertDialogDemo />
     </>
   );
 }

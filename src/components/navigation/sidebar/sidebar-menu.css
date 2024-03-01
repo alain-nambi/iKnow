@@ -1,0 +1,19 @@
+.sidebar {
+    @apply flex flex-col items-center justify-between h-screen w-[70px] bg-blue-500
+}
+
+.sidebar-content {
+    @apply flex flex-col gap-10
+}
+
+.sidebar__button {
+    @apply text-white p-3 rounded-md
+}
+
+.sidebar__button.active {
+    @apply text-blue-500 bg-white
+}
+
+.sidebar__button:hover {
+    @apply bg-white text-blue-500
+}
